@@ -6,16 +6,37 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4CAF50; /* Başlık arka plan rengi */
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-/* ... Diğer stillendirmeler ... */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
 
 footer {
-    background-color: #333;
+    background-color: #4CAF50; /* Altbilgi arka plan rengi */
     color: #fff;
     text-align: center;
     padding: 10px;
