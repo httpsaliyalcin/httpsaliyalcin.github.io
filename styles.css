@@ -1,46 +1,114 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Arka plan rengi */
-    background-image: linear-gradient(45deg, #f4f4f4 25%, #ddd 25%, #ddd 50%, #f4f4f4 50%, #f4f4f4 75%, #ddd 75%, #ddd 100%);
-    background-size: 8px 8px;
-}
-
-header {
-    background-color: #4CAF50; /* Başlık arka plan rengi */
-    color: #fff;
-    padding: 20px;
     text-align: center;
+    background-color: #f4f4f4;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+.lamp-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-top: 100px;
 }
 
-nav li {
-    display: inline;
-    margin: 0 10px;
+.lamp-rope {
+    background-color: #8B4513; /* Kahverengi renk */
+    width: 5px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
+.lamp {
+    background-color: #D3D3D3; /* Gri renk */
+    width: 100px;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
 }
 
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #4CAF50; /* Altbilgi arka plan rengi */
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
+.lamp-part {
+    background-color: #808080; /* Koyu Gri renk */
+    width: 20px;
+    height: 40px;
+    position: absolute;
     bottom: 0;
-    width: 100%;
 }
+
+.lamp-part.-top {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lamp-part.-top-part {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lamp-part.right {
+    right: 0;
+    left: initial;
+    transform: none;
+}
+
+.lamp-part.-body {
+    left: 0;
+}
+
+.lamp-part.-body.right {
+    right: 0;
+    left: initial;
+}
+
+.lamp-part.-bottom {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+}
+
+.blub {
+    background-color: #FFFFE0; /* Beyazımsı Sarı renk */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wall-light-shadow {
+    background-color: #8B4513; /* Kahverengi renk */
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon.sun {
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.ray {
+    background-color: #FFFF00; /* Sarı renk */
+    width: 3px;
+    height: 20px;
+    margin: 0 2px;
+    display: inline-block;
+    transform-origin: bottom center;
+}
+
+input[type="range"] {
+    margin-top: 20px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background-color: #4CAF50; /* Yeşil renk */
+}
+
