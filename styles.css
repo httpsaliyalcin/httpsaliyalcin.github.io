@@ -1,114 +1,38 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
+h1{
+  text-align:right;
+  color:#29A329;
+  text-align:center;
+  font-size:70px;
 }
-
-.lamp-wrapper {
-    display: inline-block;
-    position: relative;
-    margin-top: 100px;
+.cast{
+  text-align:right;
+  font-size:25px;
+  color:white;
 }
-
-.lamp-rope {
-    background-color: #8B4513; /* Kahverengi renk */
-    width: 5px;
-    height: 150px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+ul{
+  text-align:right;
+  color:white;
 }
-
-.lamp {
-    background-color: #D3D3D3; /* Gri renk */
-    width: 100px;
-    height: 120px;
-    border-radius: 10px;
-    position: relative;
+.cast-pictures{
+  width:75px;
+  margin-left:10px;
 }
-
-.lamp-part {
-    background-color: #808080; /* Koyu Gri renk */
-    width: 20px;
-    height: 40px;
-    position: absolute;
-    bottom: 0;
+.main-picture{
+  width:700px;
+  text-align:left;
+  float:left;
 }
-
-.lamp-part.-top {
-    left: 50%;
-    transform: translateX(-50%);
+h2{
+  color:#5959FF;
 }
-
-.lamp-part.-top-part {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+h3{
+  color:#FFFF00;
 }
-
-.lamp-part.right {
-    right: 0;
-    left: initial;
-    transform: none;
+body{
+  text-align:left;
+  color:#CCCCFF;
 }
-
-.lamp-part.-body {
-    left: 0;
+body{
+  background-image:url("https://2.bp.blogspot.com/-QaZm0KP6j6Y/Tv5GQ1dAdxI/AAAAAAAAADA/Bk45QOte710/s1600/Scarface_Palms_small.jpg");
+  background-size:100%;
 }
-
-.lamp-part.-body.right {
-    right: 0;
-    left: initial;
-}
-
-.lamp-part.-bottom {
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -20px;
-}
-
-.blub {
-    background-color: #FFFFE0; /* Beyazımsı Sarı renk */
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.wall-light-shadow {
-    background-color: #8B4513; /* Kahverengi renk */
-    width: 150px;
-    height: 20px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.icon.sun {
-    display: inline-block;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-.ray {
-    background-color: #FFFF00; /* Sarı renk */
-    width: 3px;
-    height: 20px;
-    margin: 0 2px;
-    display: inline-block;
-    transform-origin: bottom center;
-}
-
-input[type="range"] {
-    margin-top: 20px;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-    background-color: #4CAF50; /* Yeşil renk */
-}
-
