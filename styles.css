@@ -4,35 +4,41 @@ h1{
   text-align:center;
   font-size:70px;
 }
+
 .cast{
   text-align:right;
   font-size:25px;
-  color:white;
+  color:#CCCCCC; /* Beyaz yerine gri renk kullan */
 }
+
 ul{
   text-align:right;
-  color:black;
+  color:#CCCCCC; /* Beyaz yerine gri renk kullan */
 }
+
 .cast-pictures{
   width:75px;
   margin-left:10px;
+  filter: invert(100%); /* Resimleri ters çevirerek beyaz temada koyu yap */
 }
+
 .main-picture{
   width:700px;
   text-align:left;
   float:left;
 }
+
 h2{
-  color:#5959FF;
+  color:#29A329; /* Alt başlık rengini değiştir */
 }
+
 h3{
   color:#FFFF00;
 }
+
 body{
   text-align:left;
-  color:#CCCCFF;
-}
-body{
+  color:#CCCCCC;
   background-image:url("https://2.bp.blogspot.com/-QaZm0KP6j6Y/Tv5GQ1dAdxI/AAAAAAAAADA/Bk45QOte710/s1600/Scarface_Palms_small.jpg");
   background-size:100%;
 }
