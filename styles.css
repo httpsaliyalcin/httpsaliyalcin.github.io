@@ -23,7 +23,7 @@ ul {
 }
 
 .main-picture {
-  width: 100%; /* Resmi sayfa genişliğine sığacak şekilde ayarla */
+  width: 2%; /* Resmi sayfa genişliğine sığacak şekilde ayarla */
   display: block; /* Diğer içeriklerle uyumlu olması için */
   margin: 0 auto; /* Resmi ortala */
 }
